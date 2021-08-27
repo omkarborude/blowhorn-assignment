@@ -1,0 +1,38 @@
+.footer-main-div {
+  margin-top: 1rem;
+}
+.footer-option-div {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-option-div {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  color: gray;
+}
+.footer-end-div {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: gray;
+}
+
+/* responsive */
+@media (max-width: 920px) {
+  .footer-option-div {
+    width: 100%;
+  }
+  .footer-option-div {
+    font-size: 1rem;
+  }
+  .footer-end-div {
+    width: 90%;
+    font-size: 1rem;
+  }
+}

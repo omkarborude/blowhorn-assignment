@@ -1,0 +1,105 @@
+.brand-trust-tag {
+  text-align: center;
+  margin-top: 6rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.pagetow-boost-main-div {
+  display: flex;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+.boost-img-div {
+  width: 50%;
+  height: 45rem;
+  text-align: center;
+}
+.boost-img-div img {
+  height: 100%;
+}
+.boost-info-siv {
+  width: 50%;
+  padding: 8rem 0 0 5rem;
+}
+
+.boost-info-siv h3 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.boost-info-siv p {
+  font-size: 2rem;
+  word-spacing: 1px;
+  margin-top: 1rem;
+  color: #495057;
+}
+.boost-info-siv ul {
+  margin-top: 3rem;
+}
+.boost-info-siv ul li {
+  font-size: 2rem;
+  color: #fdc500;
+}
+.boost-info-siv ul li span {
+  color: gray;
+  margin-left: 1.2rem;
+  font-size: 1.8rem;
+}
+
+/* 2 */
+
+.boost-info2-siv {
+  width: 50%;
+  padding: 5rem 2rem 0 20rem;
+}
+
+.boost-info2-siv h3 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.boost-info2-siv p {
+  font-size: 2rem;
+  word-spacing: 1px;
+  margin-top: 1rem;
+  color: #495057;
+}
+.boost-info2-siv ul {
+  margin-top: 3rem;
+}
+.boost-info2-siv ul li {
+  font-size: 2rem;
+  color: #fdc500;
+}
+.boost-info2-siv ul li span {
+  color: gray;
+  margin-left: 1.2rem;
+  font-size: 1.8rem;
+}
+/* responsive */
+@media (max-width: 920px) {
+  .pagetow-boost-main-div {
+    flex-direction: column;
+  }
+  .boost-img-div {
+    width: 90%;
+    height: 25rem;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .boost-info-siv {
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .boost-info2-siv {
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: left;
+  }
+}

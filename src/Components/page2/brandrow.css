@@ -1,0 +1,30 @@
+.brandrow-main-div {
+  width: 65%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.brandrow-main-div div {
+  margin: 0 auto;
+  width: 12rem;
+  height: 8rem;
+}
+.brandrow-main-div div img {
+  width: 100%;
+  height: 100%;
+}
+
+/* responsive */
+@media (max-width: 920px) {
+  .brandrow-main-div {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .brandrow-main-div div {
+    padding: 0.5rem;
+    width: 10rem;
+    height: 6.5rem;
+  }
+}

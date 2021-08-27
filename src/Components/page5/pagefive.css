@@ -1,0 +1,29 @@
+.project-page-main-div {
+  width: 100%;
+  padding: 1rem;
+  box-shadow: inset 0px 10px 20px 0px #ccc;
+}
+.project-page-tag {
+  width: 80%;
+  margin: 0 auto;
+}
+.project-page-tag h1 {
+  font-size: 5rem;
+  margin-top: 2rem;
+  padding-left: 5rem;
+}
+.project-page-tag p {
+  padding-left: 5rem;
+  font-size: 2rem;
+  color: gray;
+}
+
+/* responsive */
+@media (max-width: 920px) {
+  .project-page-tag {
+    width: 100%;
+  }
+  .project-page-tag h1 {
+    font-size: 3rem;
+  }
+}

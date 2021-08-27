@@ -1,0 +1,43 @@
+.team-card-main-div {
+  width: 25rem;
+  height: 35rem;
+}
+
+.card-photo-div {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 90%;
+  height: 60%;
+  border-top-left-radius: 50%;
+  border-end-end-radius: 50%;
+  border-end-start-radius: 50%;
+}
+.card-photo-div img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.team-m-name {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.team-m-post {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #3f37c9;
+}
+
+.t-g-logo-div {
+  display: flex;
+  justify-content: center;
+}
+.t-g-logo-div i {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  color: gray;
+}

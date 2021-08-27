@@ -1,0 +1,58 @@
+export const membarData = [
+  {
+    id: 1,
+    image: "https://i.ibb.co/cFK8ZvH/Freddy-Smith.png",
+    name: "Freddy Smith",
+    post: "CEO and Founder",
+    bgc: "#fff6cc",
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co/5Kh13vS/Carl-Jones.png",
+    name: "Carl Jones",
+    post: "CTO and Co-Founder",
+    bgc: "#d8f3dc",
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co/k6vrjq0/Susan-Peterson.png",
+    name: "Susan Peterson",
+    post: "Marketing Director",
+    bgc: "#fae0e4",
+  },
+  {
+    id: 4,
+    image: "https://i.ibb.co/VxLjFvf/Tommy-Barnes.png",
+    name: "Tommy Barnes",
+    post: "Designer",
+    bgc: "#ddfff7",
+  },
+  {
+    id: 5,
+    image: "https://i.ibb.co/k6vrjq0/Susan-Peterson.png",
+    name: "Susan Peterson",
+    post: "Marketing Director",
+    bgc: "#fae0e4",
+  },
+  {
+    id: 6,
+    image: "https://i.ibb.co/VxLjFvf/Tommy-Barnes.png",
+    name: "Tommy Barnes",
+    post: "Designer",
+    bgc: "#ddfff7",
+  },
+  {
+    id: 7,
+    image: "https://i.ibb.co/cFK8ZvH/Freddy-Smith.png",
+    name: "Freddy Smith",
+    post: "CEO and Founder",
+    bgc: "#fff6cc",
+  },
+  {
+    id: 8,
+    image: "https://i.ibb.co/5Kh13vS/Carl-Jones.png",
+    name: "Carl Jones",
+    post: "CTO and Co-Founder",
+    bgc: "#d8f3dc",
+  },
+];

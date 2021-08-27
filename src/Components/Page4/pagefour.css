@@ -1,0 +1,28 @@
+.team-page-main-div {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+.our-team-tag {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #3f37c9;
+}
+.our-team-tag-info {
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.team-card-wrapper-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* responsive */
+@media (max-width: 920px) {
+  .team-page-main-div {
+    width: 90%;
+  }
+}
